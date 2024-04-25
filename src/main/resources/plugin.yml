@@ -1,0 +1,12 @@
+name: DiscordBot
+version: '${project.version}'
+main: org.cinkii.net.discordbot.DiscordBot
+api-version: '1.8'
+author: "cinkii"
+commands:
+  checkds:
+    description: "Comando para checkear cuantas personas hay en discord"
+    usage: "/command <arg>"
+    aliases: dscheck
+    permission: permission.commands.check
+    permission-message: "No tenes permisos para utilizar el comando."
